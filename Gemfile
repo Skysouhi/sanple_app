@@ -60,6 +60,6 @@ group :test do
   gem "capybara"
   gem "selenium-webdriver"
 end
-gem "json", "~> 2.0"
+gem "json", "~> 3.1"
 gem "bootstrap-sass", "3.4.1"
 gem "sassc-rails", "2.1.2"
