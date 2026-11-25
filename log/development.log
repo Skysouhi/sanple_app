@@ -130,3 +130,30 @@ Started GET "/assets/rails-27b4717692698a3e7b0be9fd2cd1c151471027fef6eb719d63a0b
 Cannot render console from 60.112.121.140! Allowed networks: 127.0.0.0/127.255.255.255, ::1, ::ffff:127.0.0.0/::ffff:127.255.255.255
 Started GET "/assets/controllers/index-31a9bee606cbc5cdb1593881f388bbf4c345bf693ea24e124f84b6d5c98ab648.js" for 60.112.121.140 at 2026-11-25 05:30:39 +0000
 Cannot render console from 60.112.121.140! Allowed networks: 127.0.0.0/127.255.255.255, ::1, ::ffff:127.0.0.0/::ffff:127.255.255.255
+Started GET "/" for 60.112.121.140 at 2026-11-25 05:35:29 +0000
+Cannot render console from 60.112.121.140! Allowed networks: 127.0.0.0/127.255.255.255, ::1, ::ffff:127.0.0.0/::ffff:127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC /*application='SanpleApp'*/[0m
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 1192.8ms | GC: 123.5ms)
+  Rendered layouts/_header.html.erb (Duration: 0.4ms | GC: 0.0ms)
+  Rendered layouts/_footer.html.erb (Duration: 0.3ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 1220.1ms | GC: 124.4ms)
+Completed 200 OK in 1255ms (Views: 1225.0ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 124.4ms)
+
+
+Started GET "/assets/application-847d769b2f1f18a33b88877888440e9aba241937478e00b97b9b6a53fe85e400.css" for 60.112.121.140 at 2026-11-25 05:35:31 +0000
+Cannot render console from 60.112.121.140! Allowed networks: 127.0.0.0/127.255.255.255, ::1, ::ffff:127.0.0.0/::ffff:127.255.255.255
+Started GET "/help" for 60.112.121.140 at 2026-11-25 05:36:15 +0000
+Cannot render console from 60.112.121.140! Allowed networks: 127.0.0.0/127.255.255.255, ::1, ::ffff:127.0.0.0/::ffff:127.255.255.255
+Processing by StaticPagesController#help as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/help.html.erb within layouts/application
+  Rendered static_pages/help.html.erb within layouts/application (Duration: 0.4ms | GC: 0.0ms)
+  Rendered layouts/_header.html.erb (Duration: 0.2ms | GC: 0.0ms)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 8.7ms | GC: 0.0ms)
+Completed 200 OK in 10ms (Views: 9.2ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
